@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Go Trip</title>
+</head>
+<body>
+    <body>
+        <!--===========Nav Bar=================-->
+        <section class="nav-bar">
+            <div class="logo">Go Trip</div>
+            <ul class="menu">
+                <li><a href="#">home</a></li>
+                <li><a href="#">tours</a></li>
+                <li><a href="#">package</a></li>
+                <li><a href="#">blog</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+            </div>
+        </section>
+        <!--===============Banner================-->
+        <section class="banner">
+            <div class="banner-text-item">
+                <div class="banner-heading">
+                    <h1>Find your Next tour!</h1>
+                    <img src="https://static.vecteezy.com/system/resources/previews/025/871/482/original/travel-destination-background-and-template-design-with-travel-destinations-and-famous-landmarks-and-attractions-for-tourism-let-s-go-travel-illustration-vector.jpg">
+                </div>
+                <form class="form">
+                    <input type="text" list="mylist" placeholder="Where would you like to go?">
+                    <datalist id="mylist">
+                        <option>London</option>
+                        <option>Canada</option>
+                        <option>Monaco</option>
+                        <option>France</option>
+                        <option>Japan</option>
+                        <option>Switzerland</option>
+                        <option>Seoul</option>
+                    </datalist>
+                    <input type="date" class="date">
+                    <a href="#" class="book">book</a>
+                </form>
+            </div>
+        </section>
+        <!--=========Services===============-->
+        <section class="services">
+            <div class="service-item">
+                <img src="https://cdni.iconscout.com/illustration/premium/preview/food-and-wine-tour-guide-taking-visitors-to-local-restaurants-and-vineyards-8834557-7162551.png?f=webp&h=700">
+                <h2>8000+ Our Local Guides</h2>
+            </div>
+            <div class="service-item">
+                <img src="https://www.shutterstock.com/shutterstock/photos/2431286613/display_1500/stock-vector-girl-employee-of-a-travel-agency-offers-vacation-trip-travel-agency-reminds-you-that-its-time-to-2431286613.jpg">
+                <h2>100% Trusted Tour Agency</h2>
+            </div>
+            <div class="service-item">
+                <img src="https://www.shutterstock.com/shutterstock/photos/589985201/display_1500/stock-vector-modern-flat-thin-line-colorful-design-vector-illustration-concept-of-traveling-around-the-world-589985201.jpg">
+                <h2>28+ Years of Travel Experience</h2>
+            </div>
+            <div class="service-item">
+                <img src="https://upgradedpoints.com/wp-content/uploads/2022/01/full-shot-travel-concept-with-landmarks.jpg?auto=webp&disable=upscale&width=1420&height=650&fit=crop">
+                <h2>98% Our Travelers are Happy</h2>
+            </div>
+        </section>
+        <!--==============Places===================-->
+        <section class="places">
+            <div class="places-text">
+                <small>FEATURED TOURS PACKAGES</small>
+                <h2>Favourite Places</h2>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="zoom-img">
+                        <div class="img-card">
+                            <img
+                                src="https://www.pulpandpapercanada.com/wp-content/uploads/2019/09/fall2018-forests.jpg">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <span class="rating">⭐⭐⭐⭐⭐</span>
+                        <h2>The Dark Forest Adventure</h2>
+                        <p class="cost">$1870 / Per Person</p>
+                        <div class="card-box">
+                            <p class="time">🕓 3 Days</p>
+                            <p class="location">✈ Vancouver, Canada</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="zoom-img">
+                        <div class="img-card">
+                            <img src="https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/12/53/f4/8f.jpg">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <span class="rating">⭐⭐⭐⭐⭐</span>
+                        <h2>The Dark Forest Adventure</h2>
+                        <p class="cost">$1870 / Per Person</p>
+                        <div class="card-box">
+                            <p class="time">🕓 3 Days</p>
+                            <p class="location">✈ Paris, France</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="zoom-img">
+                        <div class="img-card">
+                            <img src="https://wallpapers.com/images/high/dark-misty-forest-youtube-cover-n5qbxhvxcrdwrrim.webp">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <span class="rating">⭐⭐⭐⭐⭐</span>
+                        <h2>The Dark Forest Adventure</h2>
+                        <p class="cost">$1870 / Per Person</p>
+                        <div class="card-box">
+                            <p class="time">🕓 3 Days</p>
+                            <p class="location">✈ Monaco, Monaco</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="zoom-img">
+                        <div class="img-card">
+                            <img
+                                src="https://www.niophoto.com/wp-content/media/chalet-swiss-winter-mountains.jpg">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <span class="rating">⭐⭐⭐⭐⭐</span>
+                        <h2>The Dark Forest Adventure</h2>
+                        <p class="cost">$1870 / Per Person</p>
+                        <div class="card-box">
+                            <p class="time">🕓 3 Days</p>
+                            <p class="location">✈ Bern, Switzerland</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="zoom-img">
+                        <div class="img-card">
+                            <img src="https://wallpapercave.com/wp/wp2328787.jpg">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <span class="rating">⭐⭐⭐⭐⭐</span>
+                        <h2>The Dark Forest Adventure</h2>
+                        <p class="cost">$1870 / Per Person</p>
+                        <div class="card-box">
+                            <p class="time">🕓 3 Days</p>
+                            <p class="location">✈ Seoul, South Korea</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="zoom-img">
+                        <div class="img-card">
+                            <img
+                                src="https://www.sunnyexplores.com/wp-content/uploads/2017/10/Sunnyexplores-Monteverde-13-768x512.jpg">
+                        </div>
+                    </div>
+                    <div class="text">
+                        <span class="rating">⭐⭐⭐⭐⭐</span>
+                        <h2>The Dark Forest Adventure</h2>
+                        <p class="cost">$1870 / Per Person</p>
+                        <div class="card-box">
+                            <p class="time">🕓 3 Days</p>
+                            <p class="location">✈ Tokyo, japan</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--===========About Us===============-->
+        <section class="about">
+            <div class="about-img">
+                <img src="https://franchiseindia.s3.ap-south-1.amazonaws.com/uploads/content/fi/art/5bac8a4f768b1.png">
+            </div>
+            <div class="about-text">
+                <small>ABOUT OUR COMPANY</small>
+                <h2>We are Go Trip Ravels Support Company</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud</p>
+                <label><input type="checkbox" checked>Lorem ipsum dolor sit amet</label>
+                <label><input type="checkbox" checked>consectetur adipisicing elit</label>
+                <label><input type="checkbox" checked>Architecto atque consequuntur</label>
+                <label><input type="checkbox" checked>cupiditate doloremque ducimus</label>
+                <a href="#">ABOUT US</a>
+            </div>
+        </section>
+        <!--===========Footer=================-->
+        <div class="footer">
+            <div class="links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li>Offers & Discounts</li>
+                    <li>Get Coupon</li>
+                    <li>Contact Us</li>
+                    <li>About</li>
+                </ul>
+            </div>
+            <div class="links">
+                <h3>New Products</h3>
+                <ul>
+                    <li>Woman Cloth</li>
+                    <li>Fashion Accessories</li>
+                    <li>Man Accessories</li>
+                    <li>Rubber made Toys</li>
+                </ul>
+            </div>
+            <div class="links">
+                <h3>Support</h3>
+                <ul>
+                    <li>Frequently Asked Questions</li>
+                    <li>Report a Payment Issue</li>
+                    <li>Terms & Conditions</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
+</body>
+</html>
